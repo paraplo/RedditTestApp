@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RedditTestApp</string>
+
+    <string name="error_message_fetch_topic_image">Couldn\'t fetch image :(</string>
+    <string name="error_message_load_top_topic">Unexpected error</string>
+
+    <string name="format_top_topic_comment">%1$s comment</string>
+    <string name="format_top_topic_comments">%1$s comments</string>
+    <string name="format_top_topic_no_comments">No comments yet</string>
+</resources>

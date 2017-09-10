@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="top_topic_comment_count">
+        <item quantity="zero">@string/format_top_topic_no_comments</item>
+        <item quantity="one">@string/format_top_topic_comment</item>
+        <item quantity="many">@string/format_top_topic_comments</item>
+        <item quantity="few">@string/format_top_topic_comments</item>
+        <item quantity="other">@string/format_top_topic_comments</item>
+    </plurals>
+</resources>

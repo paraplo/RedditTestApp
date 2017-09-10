@@ -1,0 +1,53 @@
+<resources>
+
+    <style name="App.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="App.Widget.TextView.Topic.Title" parent="">
+        <item name="android:textAppearance">@style/App.TextAppearance.Topic.Title</item>
+    </style>
+
+    <style name="App.Widget.TextView.Topic.Author" parent="">
+        <item name="android:textAppearance">@style/App.TextAppearance.Topic.Author</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="App.Widget.TextView.Topic.Date" parent="">
+        <item name="android:textAppearance">@style/App.TextAppearance.Topic.Date</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="App.Widget.TextView.Topic.CommentCount" parent="">
+        <item name="android:textAppearance">@style/App.TextAppearance.Topic.CommentCount</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="App.TextAppearance.Topic.Title" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/color2</item>
+    </style>
+
+    <style name="App.TextAppearance.Topic.Author" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/color4</item>
+    </style>
+
+    <style name="App.TextAppearance.Topic.Date" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/color4</item>
+    </style>
+
+    <style name="App.TextAppearance.Topic.CommentCount" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/color4</item>
+    </style>
+
+    <style name="App.TextAppearance.TopicImage.Error" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+</resources>
